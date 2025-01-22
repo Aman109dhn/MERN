@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    height: 51%;
+    margin: 10px;
+    padding: 40px;
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#header{
+    height: 13%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin: 20px;
+    color: rgb(3, 3, 90);
+}
+#fakeheader{
+    height: 13%;
+    width: 100%;
+}
+#page1{
+    height: 87%;
+    width: 100%;
+    background-color: bisque;
+}
+#page2{
+    height: 87%;
+    width: 100%;
+    background-color: beige;
+}
+
+#contact{
+    margin-left: 150px;
+    text-align: center;
+    color: rgb(3, 3, 90);
+    h4{
+        margin: 0%;
+        padding:0%;
+    }
+}
+
+#contact:hover{
+    h4{
+    color: rgb(148, 225, 251);
+    }
+}
+
+.icons{
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+
+.icons:hover{
+    background-color: rgb(171, 226, 245);
+}
+
+#login{
+    display: flex;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#login:hover{
+    background-color: rgb(215, 236, 243);
+    i{
+        color:rgb(13, 152, 198);
+    }
+    h4{
+        color:rgb(13, 152, 198);
+    }
+}
+#rect{
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: rgb(4, 128, 4);
+    border-radius: 5px;
+}
+#rect:hover{
+    background-color: rgb(1, 40, 1);
+}
